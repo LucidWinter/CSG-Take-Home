@@ -1,0 +1,36 @@
+Please create a responsive webpage that follows the design and instructions in the zip. 
+
+There are two background images, which have been provided. 
+
+The output should be a HTML, CSS and JS file that can be run locally to match the design provided in the mockups (desktop.jpg and mobile.jpg). 
+
+Using external javascript libraries is allowed, but as much vanilla javascript as possible is preferred. 
+
+
+Desktop (desktop.jpg):
+
+Images should take up 100% width and height on all sizes above mobile breakpoint
+Footer text is on top of images on desktop and centered
+Logo is centered between the two images
+Buttons are centered within each image side
+Images are provided (bike1.jpg and bike2.jpg)
+
+
+Mobile (mobile.jpg):
+
+Mobile breakpoint is 1024px
+Images stack and take up full width, height matches aspect ratio
+Footer becomes it's own section underneath images on mobile 
+Button text changes to "top button" and "bottom button"
+Images are provided (bike1.jpg and bike2.jpg)
+
+
+Buttons: 
+
+Buttons are always centered in the separate image areas
+
+Clicking on a the left button opens a modal
+Modal has text that says "Clicked Left Image" (not pictured, use any modal design you'd like)
+
+Clicking on the right button swaps the background from the two side by side images, to a full-screen silent background video that autoplays. (Not provided, video can be any you prefer from youtube, vimeo, or a locally embedded one.) 
+
