@@ -1,0 +1,69 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* End of Reset */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../img/bikes1.jpg), url(../img/bikes2.jpg);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+
+}
+
+/* button{
+    background-color: blue;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+} */
+
+#header,
+#footer{
+    display: flex;
+    justify-content: center;
+}
+
+#header h1 {
+    font-size: 64px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+/* #btn-container{
+    display: flex;
+
+} */
+
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+#footer h1{
+    font-size: 16px;
+}
