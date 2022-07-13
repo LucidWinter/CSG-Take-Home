@@ -9,24 +9,34 @@
 </head>
 <body>
     <div id="header">
-        <h1>Logo</h1>
+            <h1>Logo</h1>
     </div>
 
     <div id="btn-container">
         <div id="left-side-btn">
-            <button id="left-btn">Left Button</button>
+            <button id="left-btn">
+                <span class="left-text">Left Button</span>
+                <span class="top-text">Top Button</span>
+            </button>
         </div>
         <div id="right-side-btn">
-            <button id="right-btn">Right Button</button>
+            <button id="right-btn">
+                <span class="right-text">Right Button</span>
+                <span class="bottom-text">Bottom Button</span>
+            </button>
         </div>
     </div>
 
     <div class="modal-container">
         <div class="modal-content">
-          <span class="close">&times;</span>
           <p>Clicked Left Image</p>
+          <span class="close">&times;</span>
         </div>
       </div>
+
+    <div class="backgroundVideo-container">
+        <video class="backVideo" src="./video/file.mp4" muted loop autoplay></video>
+    </div>
 
     <div id="footer">
         <h1>Footer text copyright 2022</h1>

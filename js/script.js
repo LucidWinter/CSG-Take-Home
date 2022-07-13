@@ -7,12 +7,14 @@
 
 const leftButton = document.querySelector('#left-btn');
 const rightButton = document.querySelector('#right-btn');
+
 const modal = document.querySelector('.modal-container');
 const closeModal = document.querySelector('.close');
 
-const backgroundVideo = document.querySelector('#video-container');
+const backgroundVideo = document.querySelector('.backVideo');
 
 function showModal(){
+  console.log('top/left click');
      modal.style.display = 'block';
 }
 
@@ -21,13 +23,14 @@ function hideModal(){
 }
 
 function videoPlayer(){
-    
+  console.log('bot/right click');
+    backgroundVideo.style.display = 'block';
 }
 
 leftButton.addEventListener('click', showModal);
+closeModal.addEventListener('click', hideModal);
 rightButton.addEventListener('click', videoPlayer);
 
-closeModal.addEventListener('click', hideModal);
 window.onclick = function(e){
     if(e.target == modal){
       modal.style.display = "none"
